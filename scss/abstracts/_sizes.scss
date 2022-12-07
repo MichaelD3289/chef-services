@@ -3,6 +3,18 @@ $sizes: (
   '12': 0.75rem,
   '16': 1rem,
   '20': 1.25rem,
+  '24': 1.5rem,
   '32': 2rem,
   '36': 2.25rem,
 );
+
+$padding-hero: 20rem;
+$padding-section: 7rem;
+$padding-card-body: 5rem;
+
+$gap-grid: 1.5rem;
+$gap-flex-group: 1rem;
+
+$min-content-distance: 1rem;
+$container-max-width: 77.75rem;
+$container-max-width-xl: 100rem;

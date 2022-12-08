@@ -9,13 +9,13 @@ $sizes: (
   '48': 3rem,
 );
 
-$padding-hero: 20rem;
-$padding-section: 7rem;
-$padding-card-body: 5rem;
+$padding-hero: clamp(13rem, 15vh, 20rem);
+$padding-section: clamp(3rem, 10vh, 7rem);
+$padding-card-body: clamp(2rem, 3.5vw, 5rem);
 
 $gap-grid: 1.5rem;
 $gap-flex-group: 1rem;
 
 $min-content-distance: 1rem;
-$container-max-width: 77.75rem;
-$container-max-width-xl: 100rem;
+$container-max-width: 70rem;
+$container-max-width-xl: 80rem;

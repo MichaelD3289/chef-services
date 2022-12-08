@@ -3,6 +3,10 @@
 .flex-group {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--flex-gap, $gap-flex-group);
-  width: fit-content;
+  column-gap: var(--flex-column-gap, $gap-flex-group);
+  row-gap: calc(var(--flex-row-gap, calc($gap-flex-group / 2)));
+
+  &.mx-auto {
+    justify-content: center;
+  }
 }
